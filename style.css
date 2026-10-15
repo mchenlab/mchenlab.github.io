@@ -84,6 +84,10 @@ nav{font-size:.84rem;gap:22px}.nav-contact{padding:7px 16px}
 
 
 /* Group photograph within the People page */
-.people-team-photo{margin-top:-18px;padding:0 0 52px}
+.people-team-photo{margin-top:52px;padding:0 0 22px}
 .people-team-photo .lab-photo{margin:0 auto}
 @media(max-width:720px){.people-team-photo{padding-bottom:36px}}
+
+.future-members{border-top:1px solid var(--line);padding-top:24px;max-width:580px;margin:0 auto}
+.future-members>p:last-child{margin-top:10px;color:var(--muted);font-size:.95rem}
+@media(max-width:720px){.people-team-photo{margin-top:36px;padding-bottom:18px}}
