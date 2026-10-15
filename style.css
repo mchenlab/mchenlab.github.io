@@ -91,3 +91,16 @@ nav{font-size:.84rem;gap:22px}.nav-contact{padding:7px 16px}
 .future-members{border-top:1px solid var(--line);padding-top:24px;max-width:580px;margin:0 auto}
 .future-members>p:last-child{margin-top:10px;color:var(--muted);font-size:.95rem}
 @media(max-width:720px){.people-team-photo{margin-top:36px;padding-bottom:18px}}
+
+
+/* Structured People page */
+.people-section-heading{margin-bottom:24px}
+.people-section-heading h2{font-size:2.1rem;letter-spacing:-.04em}
+.people-team-photo{margin:0;padding:0 0 64px}
+.people-team-photo .lab-photo{max-width:820px;margin:0}
+.people-team-photo .lab-photo figcaption{text-align:left}
+.pi-profile-section{border-top:1px solid var(--line);padding-top:50px}
+.current-members{margin:68px 0 0;max-width:820px}
+.current-members h2{font-size:2rem;letter-spacing:-.035em;margin-top:12px}
+.current-members>p:last-child{max-width:none;font-size:1rem}
+@media(max-width:720px){.people-section-heading h2{font-size:1.75rem}.people-team-photo{padding-bottom:46px}.pi-profile-section{padding-top:36px}.current-members{margin-top:48px}}
