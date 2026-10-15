@@ -74,3 +74,10 @@ nav{font-size:.84rem;gap:22px}.nav-contact{padding:7px 16px}
 .resource-list a:hover{color:var(--teal);text-decoration:underline;text-underline-offset:4px}
 .resource-list a:focus-visible{outline:2px solid var(--teal);outline-offset:4px}
 @media(max-width:720px){.resource-grid{grid-template-columns:1fr;gap:32px;padding-top:30px;padding-bottom:38px}.resource-group h2{font-size:1.4rem}}
+
+
+/* People and contact page photographs */
+.contact-lab-photo{margin:28px 0 0;max-width:250px}
+.contact-lab-photo img{display:block;width:100%;height:auto}
+.contact-lab-photo figcaption{margin-top:9px;color:#b7c8cd;font-size:.76rem}
+@media(max-width:720px){.contact-lab-photo{max-width:280px}}
