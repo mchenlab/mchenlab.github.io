@@ -81,3 +81,9 @@ nav{font-size:.84rem;gap:22px}.nav-contact{padding:7px 16px}
 .contact-lab-photo img{display:block;width:100%;height:auto}
 .contact-lab-photo figcaption{margin-top:9px;color:#b7c8cd;font-size:.76rem}
 @media(max-width:720px){.contact-lab-photo{max-width:280px}}
+
+
+/* Group photograph within the People page */
+.people-team-photo{margin-top:-18px;padding:0 0 52px}
+.people-team-photo .lab-photo{margin:0 auto}
+@media(max-width:720px){.people-team-photo{padding-bottom:36px}}
