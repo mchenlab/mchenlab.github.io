@@ -104,3 +104,9 @@ nav{font-size:.84rem;gap:22px}.nav-contact{padding:7px 16px}
 .current-members h2{font-size:2rem;letter-spacing:-.035em;margin-top:12px}
 .current-members>p:last-child{max-width:none;font-size:1rem}
 @media(max-width:720px){.people-section-heading h2{font-size:1.75rem}.people-team-photo{padding-bottom:46px}.pi-profile-section{padding-top:36px}.current-members{margin-top:48px}}
+
+
+/* Site-wide visit total, displayed over the Contact-page photograph */
+.contact-photo-frame{position:relative}
+.visitor-counter{position:absolute;right:9px;bottom:9px;display:flex;align-items:baseline;gap:8px;padding:7px 9px 6px;background:rgba(4,21,33,.84);color:#edf3f5;font-size:.62rem;line-height:1;letter-spacing:.13em;text-transform:uppercase;box-shadow:0 2px 9px #03111f4a}
+.visitor-counter strong{color:var(--lime);font-family:var(--display);font-size:1rem;font-weight:700;letter-spacing:.02em}
