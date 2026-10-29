@@ -31,13 +31,13 @@ if (location.pathname.endsWith('/') || location.pathname.endsWith('/index.html')
   if (legacy[location.hash]) location.replace(legacy[location.hash]);
 }
 
-// Count page views site-wide; the total is displayed only on the Contact page.
+// Count one page view site-wide. The total is displayed only on the Contact page.
 (() => {
-  const counterScriptId = 'chen-lab-visitor-counter';
-  if (document.getElementById(counterScriptId)) return;
-  const script = document.createElement('script');
-  script.id = counterScriptId;
-  script.async = true;
-  script.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
-  document.head.appendChild(script);
+  if (document.querySelector('.visitor-counter img')) return;
+  const tracker = new Image();
+  tracker.className = 'site-visit-tracker';
+  tracker.src = 'https://hits.sh/mchenlab.github.io-website.svg?label=Site%20visits&color=137d81&labelColor=071b27&style=flat';
+  tracker.alt = '';
+  tracker.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(tracker);
 })();
