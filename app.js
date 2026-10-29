@@ -30,3 +30,14 @@ if (location.pathname.endsWith('/') || location.pathname.endsWith('/index.html')
   const legacy = {'#publications':'publications.html','#people':'people.html','#contact':'contact.html','#people-preview':'people.html','#lab-members':'people.html'};
   if (legacy[location.hash]) location.replace(legacy[location.hash]);
 }
+
+// Count page views site-wide; the total is displayed only on the Contact page.
+(() => {
+  const counterScriptId = 'chen-lab-visitor-counter';
+  if (document.getElementById(counterScriptId)) return;
+  const script = document.createElement('script');
+  script.id = counterScriptId;
+  script.async = true;
+  script.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
+  document.head.appendChild(script);
+})();
