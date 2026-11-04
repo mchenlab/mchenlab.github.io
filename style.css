@@ -109,6 +109,6 @@ nav{font-size:.84rem;gap:22px}.nav-contact{padding:7px 16px}
 /* A discreet, site-wide visit total below the Contact-page photograph */
 .contact-photo-frame{position:relative}
 .contact-lab-photo figcaption{display:flex;align-items:center;gap:10px;margin-top:7px;color:#b7c8cd;font-size:.76rem}
-.visitor-counter{position:relative;display:block;width:28px;height:18px;margin-left:auto;overflow:hidden;line-height:0;opacity:.14}
+.visitor-counter{position:relative;display:block;width:28px;height:18px;overflow:hidden;line-height:0;opacity:.14}
 .visitor-counter img{position:absolute;top:0;right:0;display:block;max-width:none;width:auto;height:18px}
 .site-visit-tracker{position:fixed;width:1px;height:1px;opacity:0;pointer-events:none;left:-10px;bottom:-10px}
