@@ -36,7 +36,7 @@ if (location.pathname.endsWith('/') || location.pathname.endsWith('/index.html')
   if (document.querySelector('.visitor-counter img')) return;
   const tracker = new Image();
   tracker.className = 'site-visit-tracker';
-  tracker.src = 'https://hits.sh/mchenlab.github.io-website.svg?label=Site%20visits&color=137d81&labelColor=071b27&style=flat';
+  tracker.src = 'https://hits.sh/mchenlab.github.io-website.svg?label=&color=0b2733&labelColor=071b27&style=flat';
   tracker.alt = '';
   tracker.setAttribute('aria-hidden', 'true');
   document.body.appendChild(tracker);
